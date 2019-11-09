@@ -29,7 +29,7 @@ S_h = sum(h); % total population h (non-conformists)
 % initial condition tildes
 for i=1:numFad
     a_tilde(i,1) = a(i)/S_a;
-    h_tilde(i,1) = h(i)/S_a;
+    h_tilde(i,1) = h(i)/S_h;
 end
 
 N = 2^21; % total number of steps
